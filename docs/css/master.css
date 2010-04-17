@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'ChunkFiveRegular';
+	src: url('/docs/fonts/Chunkfive.eot');
+	src: local('ChunkFive'), local('ChunkFive'), url('/docs/fonts/Chunkfive.woff') format('woff'), url('/docs/fonts/Chunkfive.ttf') format('truetype'), url('/docs/fonts/Chunkfive.svg#ChunkFive') format('svg');
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol { font-weight: normal; margin: 0; padding: 0; color: inherit; font-family: Times, "Times New Roman"; }
+
+body { margin: 3em auto; width: 650px; background-image: none; }
+body > p { display: none; }
+div.head { margin-bottom: 2em; }
+div.head hr, div.head > a, div.head dl { display: none; }
+div.head h1 { font-family: "ChunkFiveRegular"; }
+div.head h2.maturity { color: #999; font-size: 1em; font-style: italic; }
+div.head p.copyright { color: #ccc; font-size: 0.8em; font-style: italic; width: 60%; line-height: 1.4em; }
+div.head p.copyright a { color: inherit; }
+
+div h2:first-child { border-bottom: 1px solid black; font-style: italic; font-size: 1.6em; margin-bottom: 1em; }
+div p { width: 80%; margin-bottom: 1em; line-height: 1.4em; }
+div p :link { color: red; }
+
+div.section h2 span.tocnum { background-color: black; border-radius: 17px; color: white; display: block; position: relative; width: 25px; height: 32px; margin: 0 0 -30px -100px; text-shadow: 1px 1px 1px black; padding-left: 10px; padding-top: 3px; }
