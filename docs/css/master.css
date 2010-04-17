@@ -10,9 +10,9 @@ body { margin: 3em auto; width: 650px; background-image: none; }
 body > p { display: none; }
 div.head { margin-bottom: 2em; }
 div.head hr, div.head > a, div.head dl { display: none; }
-div.head h1 { font-family: "ChunkFiveRegular"; }
-div.head h2.maturity { color: #999; font-size: 1em; font-style: italic; }
-div.head p.copyright { color: #ccc; font-size: 0.8em; font-style: italic; width: 60%; line-height: 1.4em; }
+div.head h1 { font-family: "ChunkFiveRegular"; line-height: 1.4em; font-size: 2.9em; width: 530px; margin-bottom: 0.5em; text-shadow: 1px 1px 1px white; }
+div.head h2.maturity { color: #666; font-size: 1em; }
+div.head p.copyright { color: #999; font-size: 0.8em; font-style: italic; width: 60%; line-height: 1.4em; }
 div.head p.copyright a { color: inherit; }
 
 div h2:first-child { border-bottom: 1px solid black; font-style: italic; font-size: 1.6em; margin-bottom: 1em; }
