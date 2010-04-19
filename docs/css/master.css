@@ -42,3 +42,5 @@ div.section span.tocnum { background-color: #9cc; color: #fff; border-radius: 3p
 div.section h3 span.tocnum { top: 0.2em; }
 
 div.section { margin: 2em 0em 0em; }
+
+strong.rfc2119 { font-size: 0.8em; letter-spacing: 0.02; text-transform: uppercase; }
