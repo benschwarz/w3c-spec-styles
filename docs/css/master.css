@@ -1,17 +1,19 @@
 @font-face {
 	font-family: 'ChunkFiveRegular';
 	src: url('/docs/fonts/Chunkfive.eot');
-	src: local('ChunkFive'), local('ChunkFive'), url('/docs/fonts/Chunkfive.woff') format('woff'), url('/docs/fonts/Chunkfive.ttf') format('truetype'), url('/docs/fonts/Chunkfive.svg#ChunkFive') format('svg');
+	src: local('zzChunkFive'), local('zzChunkFive'), url('/docs/fonts/Chunkfive.woff') format('woff'), url('/docs/fonts/Chunkfive.ttf') format('truetype'), url('/docs/fonts/Chunkfive.svg#ChunkFive') format('svg');
 }
 
-h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, table, caption, th, td { font-weight: normal; margin: 0; padding: 0; color: inherit; font-family: Georgia, Times, "Times New Roman"; }
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, dd, table, caption, th, td { font-weight: normal; margin: 0; padding: 0; color: inherit; font-family: Georgia, Times, "Times New Roman", sans-serif; }
 
 :link, :visited { color: #366; text-decoration: none; }
 :visited { color: #099; }
 
-body { margin: 3em auto; width: 33em; font-size: 1.05em; line-height: 1.45; background-image: none; letter-spacing: -0.02em; }
+body { margin: 2em auto; width: 33em; font-size: 1.05em; line-height: 1.45; background-image: none; }
+
 body > p { display: none; }
-div.head { margin-bottom: 2em; }
+div.head { margin-bottom: 2em; position: relative; }
+div.head:before { content: 'W3C'; background-color: #9cc; color: #fff; border-radius: 3px; position: absolute; top: 2em; left: -5em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; }
 div.head hr, div.head > a, div.head dl { display: none; }
 div.head h1 { font-family: "ChunkFiveRegular"; line-height: 1.4em; font-size: 2.9em; width: 530px; margin-bottom: 0.5em; text-shadow: 1px 1px 1px white; }
 div.head h2.maturity { color: #666; font-size: 1em; border: 0px; }
@@ -20,6 +22,7 @@ div.head p.copyright a { color: inherit; }
 
 h2, h2.maturity { display: inline-block; font-size: 1.6em; margin-bottom: 0.5em; border-bottom: 2px solid #ccc; padding: 0em 0em 0.1em; }
 h3 { font-size: 1.2em; margin-bottom: 0.3em; }
+h4 { font-size: 1.0em; margin-bottom: 0.3em; color: #066; }
 p { margin-bottom: 1em; }
 ul { margin: 0em 0em 1em; }
 li { list-style: none; position: relative; margin: 0em 0em 0.25em; }
@@ -33,6 +36,7 @@ table th { color: #099; }
 table td { vertical-align: top; padding: 0.25em 1.25em 0.25em 0em; }
 table tr { border-bottom: 1px solid #acc; }
 hr { border: 0px; height: 2px; background: #acc; margin: 2em 0em; }
+strong { text-shadow: 1px 1px 1px #fff; }
 
 ol.toc li { color: #9cc; }
 ol.toc li:before { content: ''; }
