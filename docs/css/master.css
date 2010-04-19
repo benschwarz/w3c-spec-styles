@@ -4,19 +4,41 @@
 	src: local('ChunkFive'), local('ChunkFive'), url('/docs/fonts/Chunkfive.woff') format('woff'), url('/docs/fonts/Chunkfive.ttf') format('truetype'), url('/docs/fonts/Chunkfive.svg#ChunkFive') format('svg');
 }
 
-h1, h2, h3, h4, h5, h6, p, a, ul, ol { font-weight: normal; margin: 0; padding: 0; color: inherit; font-family: Times, "Times New Roman"; }
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, table, caption, th, td { font-weight: normal; margin: 0; padding: 0; color: inherit; font-family: Georgia, Times, "Times New Roman"; }
 
-body { margin: 3em auto; width: 650px; background-image: none; }
+:link, :visited { color: #366; text-decoration: none; }
+:visited { color: #099; }
+
+body { margin: 3em auto; width: 33em; font-size: 1.05em; line-height: 1.45; background-image: none; letter-spacing: -0.02em; }
 body > p { display: none; }
 div.head { margin-bottom: 2em; }
 div.head hr, div.head > a, div.head dl { display: none; }
 div.head h1 { font-family: "ChunkFiveRegular"; line-height: 1.4em; font-size: 2.9em; width: 530px; margin-bottom: 0.5em; text-shadow: 1px 1px 1px white; }
-div.head h2.maturity { color: #666; font-size: 1em; }
-div.head p.copyright { color: #999; font-size: 0.8em; font-style: italic; width: 60%; line-height: 1.4em; }
+div.head h2.maturity { color: #666; font-size: 1em; border: 0px; }
+div.head p.copyright { color: #999; font-size: 0.8em; font-style: italic; width: 80%; line-height: 1.4em; }
 div.head p.copyright a { color: inherit; }
 
-div h2:first-child { border-bottom: 1px solid black; font-style: italic; font-size: 1.6em; margin-bottom: 1em; }
-div p { width: 80%; margin-bottom: 1em; line-height: 1.4em; }
-div p :link { color: red; }
+h2, h2.maturity { display: inline-block; font-size: 1.6em; margin-bottom: 0.5em; border-bottom: 2px solid #ccc; padding: 0em 0em 0.1em; }
+h3 { font-size: 1.2em; margin-bottom: 0.3em; }
+p { margin-bottom: 1em; }
+ul { margin: 0em 0em 1em; }
+li { list-style: none; position: relative; margin: 0em 0em 0.25em; }
+li:before { content: '\22c5'; font-size: 2em; color: #9cc; position: absolute; top: -0.35em; left: -0.65em; font-family: lucida; font-weight: bold; }
+code, pre { font-family: "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "Andale Mono", "Lucida Console", Consolas, Monaco, "courier new", courier; color: #066; font-size: 0.9em; }
+pre { margin: 0em 0em 0em -0.6em; background: #eff; display: inline-block; padding: 0.25em 0.6em; }
+dt { color: #6cc; }
+dd { margin: 0em 0em 0.5em; }
+table caption, table th { text-align: left; color: #6cc; }
+table th { color: #099; }
+table td { vertical-align: top; padding: 0.25em 1.25em 0.25em 0em; }
+table tr { border-bottom: 1px solid #acc; }
+hr { border: 0px; height: 2px; background: #acc; margin: 2em 0em; }
 
-div.section h2 span.tocnum { background-color: black; border-radius: 17px; color: white; display: block; position: relative; width: 25px; height: 32px; margin: 0 0 -30px -100px; text-shadow: 1px 1px 1px black; padding-left: 10px; padding-top: 3px; }
+ol.toc li { color: #9cc; }
+ol.toc li:before { content: ''; }
+
+div.section h2, div.section h3 { position: relative; }
+div.section span.tocnum { background-color: #9cc; color: #fff; border-radius: 3px; position: absolute; top: 0.7em; left: -4em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; }
+div.section h3 span.tocnum { top: 0.2em; }
+
+div.section { margin: 2em 0em 0em; }
