@@ -13,7 +13,7 @@ body { margin: 2em auto; width: 33em; font-size: 1.05em; line-height: 1.45; back
 
 body > p { display: none; }
 div.head { margin-bottom: 2em; position: relative; }
-div.head:before { content: 'W3C'; background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 2em; left: -5em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; }
+div.head:before { content: 'W3C'; background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 2em; left: -5em; font-weight: bold; font-size: 11px; padding: 3px 6px 2px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
 div.head hr, div.head > a, div.head dl { display: none; }
 div.head h1 { font-family: "ChunkFiveRegular"; line-height: 1.4em; font-size: 2.9em; width: 530px; margin-bottom: 0.5em; text-shadow: 1px 1px 1px white; }
 div.head h2.maturity { color: #666; font-size: 1em; border: 0px; }
@@ -22,7 +22,7 @@ div.head p.copyright a { color: inherit; }
 
 h2, h2.maturity { display: inline-block; font-size: 1.6em; margin-bottom: 0.5em; border-bottom: 2px solid #ccc; padding: 0em 0em 0.1em; }
 h3 { font-size: 1.2em; margin-bottom: 0.3em; }
-h4 { font-size: 1.0em; margin-bottom: 0.3em; color: #066; }
+h4, h5 { font-size: 1.0em; margin-bottom: 0.3em; color: #066; padding: 0.4em 0em 0em; }
 p { margin-bottom: 1em; }
 ul { margin: 0em 0em 1em; }
 li { list-style: none; position: relative; margin: 0em 0em 0.25em; }
@@ -31,6 +31,10 @@ code, pre { font-family: "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "Andale
 pre { margin: 0em 0em 0em -0.6em; background: #eff; display: inline-block; padding: 0.25em 0.6em; }
 dt { color: #6cc; }
 dd { margin: 0em 0em 0.5em; }
+
+table { border: 0px; }
+th, td { border: 0px; border-bottom: 1px solid #acc; padding: 4px; vertical-align: top; }
+th li, td li { margin: 0px 0px 0px 1.5em; }
 table caption, table th { text-align: left; color: #6cc; }
 table th { color: #099; }
 table td { vertical-align: top; padding: 0.25em 1.25em 0.25em 0em; }
@@ -39,10 +43,10 @@ hr { border: 0px; height: 2px; background: #acc; margin: 2em 0em; }
 strong { text-shadow: 1px 1px 1px #fff; }
 
 ol.toc li { color: #9cc; }
-ol.toc li:before { content: ''; }
+ol li:before { content: ''; }
 
-div.section h2, div.section h3 { position: relative; }
-div.section span.tocnum { background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 0.7em; left: -4em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; }
+div.section h2, div.section h3, div.section h4, div.section h5 { position: relative; }
+div.section span.tocnum { background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 0.7em; left: -6em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
 div.section h3 span.tocnum { top: 0.2em; }
 
 div.section { margin: 2em 0em 0em; }
