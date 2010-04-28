@@ -52,3 +52,13 @@ div.section h3 span.tocnum { top: 0.2em; }
 div.section { margin: 2em 0em 0em; }
 
 strong.rfc2119 { font-size: 0.8em; letter-spacing: 0.1; text-transform: uppercase; }
+
+/* Mobile (iPhone) */
+@media all and (max-device-width: 480px) {
+  body { margin: 0 3em; font-size: 200%; }
+}
+	 	
+/* Mobile (iPad) */
+@media all and (max-device-width: 1024px) {
+  body { margin: 0 5em; font-size: 400%; }
+}
