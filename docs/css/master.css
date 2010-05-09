@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'ChunkFiveRegular';
-	src: url('/docs/fonts/Chunkfive.eot');
-	src: local('zzChunkFive'), local('zzChunkFive'), url('/docs/fonts/Chunkfive.woff') format('woff'), url('/docs/fonts/Chunkfive.ttf') format('truetype'), url('/docs/fonts/Chunkfive.svg#ChunkFive') format('svg');
+	src: url('http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/fonts/Chunkfive.eot');
+	src: local('zzChunkFive'), local('zzChunkFive'), url('http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/fonts/Chunkfive.woff') format('woff'), url('http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/fonts/Chunkfive.ttf') format('truetype'), url('http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/fonts/Chunkfive.svg#ChunkFive') format('svg');
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, dd, table, caption, th, td { font-weight: normal; margin: 0; padding: 0; color: inherit; font-family: Georgia, Times, "Times New Roman", sans-serif; }
