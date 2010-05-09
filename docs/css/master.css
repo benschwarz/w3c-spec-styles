@@ -26,7 +26,7 @@ h3.guideline { border: none; margin: 1em 0; }
 h4, h5 { font-size: 1.0em; margin-bottom: 0.3em; color: #066; padding: 0.4em 0em 0em; }
 p { margin-bottom: 1em; }
 
-.editor-notes { border: none; background: #eee; padding: 0.5em; margin-left: -0.5em; position: relative; color: #666; font-style: italic; font-size: 0.7em; }
+.editor-notes { display: none; }
 
 div.example { margin-bottom: 1em; }
 ul { margin: 0em 0em 1em; }
