@@ -19,11 +19,11 @@ div.head h2.maturity { color: #666; font-size: 1em; border: 0px; }
 div.head p.copyright { color: #999; font-size: 0.8em; font-style: italic; width: 80%; line-height: 1.4em; }
 div.head p.copyright a { color: inherit; }
 
-h2, h2.maturity { display: inline-block; font-size: 1.6em; margin-bottom: 0.5em; border-bottom: 2px solid #ccc; padding: 0em 0em 0.1em; }
+h2, h2.maturity { display: inline-block; font-size: 1.6em; margin: 2em 0 0.5em 0; border-bottom: 2px solid #ccc; padding: 0em 0em 0.1em; }
 h3 { font-size: 1.2em; margin-bottom: 0.3em; }
 h4, h5 { font-size: 1.0em; margin-bottom: 0.3em; color: #066; padding: 0.4em 0em 0em; }
 p { margin-bottom: 1em; }
-div.example { margin-bottom: 2em; }
+div.example { margin-bottom: 1em; }
 ul { margin: 0em 0em 1em; }
 li { list-style: none; position: relative; margin: 0em 0em 0.25em; }
 li:before { content: '\22c5'; font-size: 2em; color: #9cc; position: absolute; top: -0.35em; left: -0.65em; font-family: lucida; font-weight: bold; }
