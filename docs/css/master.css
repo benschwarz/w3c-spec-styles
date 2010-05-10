@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, dd, table, caption, th, td { font-weig
 :link, :visited { color: #366; text-decoration: none; }
 :visited { color: #099; }
 
-body { margin: 2em auto; width: 33em; font-size: 1.05em; line-height: 1.45; background-image: none; }
+body { margin: 2em auto; width: 33em; font-size: 1.05em; line-height: 1.45; background-image: none; background-color: #fff; }
 
 p, dt, td { color: #000; }
 
