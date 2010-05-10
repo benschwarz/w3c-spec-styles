@@ -1,34 +1,39 @@
 @font-face {
 	font-family: 'ChunkFiveRegular';
-	src: url('/docs/fonts/Chunkfive.eot');
-	src: local('zzChunkFive'), local('zzChunkFive'), url('/docs/fonts/Chunkfive.woff') format('woff'), url('/docs/fonts/Chunkfive.ttf') format('truetype'), url('/docs/fonts/Chunkfive.svg#ChunkFive') format('svg');
+	src: url('http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/fonts/Chunkfive.eot');
+	src: local('zzChunkFive'), local('zzChunkFive'), url('http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/fonts/Chunkfive.woff') format('woff'), url('http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/fonts/Chunkfive.ttf') format('truetype'), url('http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/fonts/Chunkfive.svg#ChunkFive') format('svg');
 }
 
-h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, dd, table, caption, th, td { font-weight: normal; margin: 0; padding: 0; color: inherit; font-family: Georgia, Times, "Times New Roman", sans-serif; }
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, dd, table, caption, th, td { font-weight: normal !important; margin: 0; padding: 0; color: inherit; font-family: Georgia, Times, "Times New Roman", sans-serif; }
 
 :link, :visited { color: #366; text-decoration: none; }
 :visited { color: #099; }
 
 body { margin: 2em auto; width: 33em; font-size: 1.05em; line-height: 1.45; background-image: none; }
 
-body > p { display: none; }
-div.head { margin-bottom: 2em; position: relative; }
+div.head { position: relative; }
 div.head:before { content: 'W3C'; background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 2em; left: -5em; font-weight: bold; font-size: 11px; padding: 3px 6px 2px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
-div.head hr, div.head > a, div.head dl { display: none; }
+div.head hr, div.head > a, img[src*="http://www.w3.org/Icons/"], div.head dl { display: none; } /* Hide hr, the logo, logo alternate and the dl list in the head section */
 div.head h1 { font-family: "ChunkFiveRegular"; line-height: 1.4em; font-size: 2.9em; width: 530px; margin-bottom: 0.5em; text-shadow: 1px 1px 1px white; }
+div.head h2 { margin: 0 0 0.5em 0; }
 div.head h2.maturity { color: #666; font-size: 1em; border: 0px; }
 div.head p.copyright { color: #999; font-size: 0.8em; font-style: italic; width: 80%; line-height: 1.4em; }
 div.head p.copyright a { color: inherit; }
 
-h2, h2.maturity { display: inline-block; font-size: 1.6em; margin-bottom: 0.5em; border-bottom: 2px solid #ccc; padding: 0em 0em 0.1em; }
+h2, h2.maturity, h2.principal { display: inline-block; font-size: 1.6em; margin: 2em 0 0.5em 0; border-bottom: 2px solid #ccc; padding: 0em 0em 0.1em; }
 h3 { font-size: 1.2em; margin-bottom: 0.3em; }
+h3.guideline { border: none; margin: 1em 0; }
 h4, h5 { font-size: 1.0em; margin-bottom: 0.3em; color: #066; padding: 0.4em 0em 0em; }
 p { margin-bottom: 1em; }
+
+.editor-notes { display: none; }
+
+div.example { margin-bottom: 1em; }
 ul { margin: 0em 0em 1em; }
 li { list-style: none; position: relative; margin: 0em 0em 0.25em; }
 li:before { content: '\22c5'; font-size: 2em; color: #9cc; position: absolute; top: -0.35em; left: -0.65em; font-family: lucida; font-weight: bold; }
 code, pre { font-family: "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "Andale Mono", "Lucida Console", Consolas, Monaco, "courier new", courier; color: #066; font-size: 0.9em; }
-pre { margin: 0em 0em 0em -0.6em; background: #eff; display: inline-block; padding: 0.25em 0.6em; }
+pre { margin: 0em 0em 1em -0.6em; background: #eff; display: inline-block; padding: 0.25em 0.6em; }
 dt { color: #6cc; }
 dd { margin: 0em 0em 0.5em; }
 
