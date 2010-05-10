@@ -42,7 +42,7 @@ table tr { border-bottom: 1px solid #acc; }
 hr { border: 0px; height: 2px; background: #acc; margin: 2em 0em; }
 strong { text-shadow: 1px 1px 1px #fff; }
 
-ol.toc li { color: #9cc; }
+ol li { color: #9cc; }
 ol li:before { content: ''; }
 
 div.section h2, div.section h3, div.section h4, div.section h5 { position: relative; }
