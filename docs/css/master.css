@@ -53,6 +53,8 @@ strong { text-shadow: 1px 1px 1px #fff; }
 
 ol li { color: #9cc; }
 
+.subtoc { background: transparent; border: 0em; }
+
 div.section h2, div.section h3, div.section h4, div.section h5 { position: relative; }
 div.section span.tocnum { background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 0.7em; left: -6em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
 div.section h3 span.tocnum { top: 0.2em; }
