@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, dd, table, caption, th, td { font-weig
 
 body { margin: 2em auto; width: 33em; font-size: 1.05em; line-height: 1.45; background-image: none; }
 
+p, dt, td { color: #000; }
+
 div.head { position: relative; }
 div.head:before { content: 'W3C'; background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 2em; left: -5em; font-weight: bold; font-size: 11px; padding: 3px 6px 2px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
 div.head hr, div.head > a, img[src*="http://www.w3.org/Icons/"], div.head dl { display: none; } /* Hide hr, the logo, logo alternate and the dl list in the head section */
