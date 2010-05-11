@@ -3,7 +3,9 @@
 // @description     An alternate stylesheet for the typographically concerned. 
 // @namespace       AB+C
 // @include         http://www.w3.org/TR/*
-// @version         0.0.2
+// @include					http://dev.w3.org/*
+// @exclude					http://www.w3.org/TR/tr-date-all
+// @version         0.0.3
 // @contributor     benschwarz
 // ==/UserScript==
 
