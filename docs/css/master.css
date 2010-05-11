@@ -42,12 +42,12 @@ dt { color: #6cc; }
 dd { margin: 0em 0em 0.5em; }
 
 table { border: 0px; }
-th, td { border: 0px; border-bottom: 1px solid #acc; padding: 4px; vertical-align: top; }
-th li, td li { margin: 0px 0px 0px 1.5em; }
+table th, table td { border: 0px; border-bottom: 1px solid #acc; padding: 4px; vertical-align: top; }
+table th li, table td li { margin: 0px 0px 0px 1.5em; }
 table caption, table th { text-align: left; color: #6cc; }
 table th { color: #099; }
 table td { vertical-align: top; padding: 0.25em 1.25em 0.25em 0em; }
-table tr { border-bottom: 1px solid #acc; }
+table tr, table tbody { border: 0px; }
 hr { border: 0px; height: 2px; background: #acc; margin: 2em 0em; }
 strong { text-shadow: 1px 1px 1px #fff; }
 
@@ -62,6 +62,10 @@ div.section h3 span.tocnum { top: 0.2em; }
 div.section { margin: 2em 0em 0em; }
 
 strong.rfc2119 { font-size: 0.8em; letter-spacing: 0.1; text-transform: uppercase; }
+
+/* Specific Overrides */
+
+a.internalDFN { color: #366; border: 0px; }
 
 /* Mobile (iPhone) */
 @media all and (max-device-width: 480px) {
