@@ -6,3 +6,15 @@ setViewPort = function() {
 	viewport.setAttribute("content", "width=device-width, maximum-scale=1.0");
 	document.getElementsByTagName("head")[0].appendChild(viewport);
 }(); // Self execute
+
+// Tidy up tables
+tidyTables = function () {
+	var unstyle = ["table", "tr", "td"];
+	var i, j;
+	for(i = 0; i < unstyle.length; i++) {
+		var element = document.getElementsByTagName(unstyle[i]);
+		for(j = 0; j < element.length; j++) {
+			element[j].className = "";
+		}
+	}
+}();
