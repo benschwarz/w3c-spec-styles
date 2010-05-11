@@ -56,7 +56,7 @@ ol li { color: #9cc; }
 div.subtoc { background: transparent; border: 0em; }
 
 h2, h3, h4, h5, h6 { position: relative; }
-div.section span.tocnum, :not(a) .secno  { background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 0.7em; left: -6em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
+div.section span.tocnum, *:not(a) .secno  { background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 0.7em; left: -6em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
 div.section h3 span.tocnum { top: 0.2em; }
 
 div.section { margin: 2em 0em 0em; }
