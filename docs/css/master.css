@@ -42,8 +42,8 @@ dt { color: #6cc; }
 dd { margin: 0em 0em 0.5em; }
 
 table { border: 0px; }
-th, td { border: 0px; border-bottom: 1px solid #acc; padding: 4px; vertical-align: top; }
-th li, td li { margin: 0px 0px 0px 1.5em; }
+table th, table td { border: 0px; border-bottom: 1px solid #acc; padding: 4px; vertical-align: top; }
+table th li, table td li { margin: 0px 0px 0px 1.5em; }
 table caption, table th { text-align: left; color: #6cc; }
 table th { color: #099; }
 table td { vertical-align: top; padding: 0.25em 1.25em 0.25em 0em; }
