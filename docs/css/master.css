@@ -63,6 +63,10 @@ div.section { margin: 2em 0em 0em; }
 
 strong.rfc2119 { font-size: 0.8em; letter-spacing: 0.1; text-transform: uppercase; }
 
+/* Specific Overrides */
+
+a.internalDFN { color: #366; border: 0px; }
+
 /* Mobile (iPhone) */
 @media all and (max-device-width: 480px) {
   body { margin: 0 3em; font-size: 200%; }
