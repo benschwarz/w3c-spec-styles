@@ -47,7 +47,7 @@ table th li, table td li { margin: 0px 0px 0px 1.5em; }
 table caption, table th { text-align: left; color: #6cc; }
 table th { color: #099; }
 table td { vertical-align: top; padding: 0.25em 1.25em 0.25em 0em; }
-table tr { border: 0px; }
+table tr, table tbody { border: 0px; }
 hr { border: 0px; height: 2px; background: #acc; margin: 2em 0em; }
 strong { text-shadow: 1px 1px 1px #fff; }
 
