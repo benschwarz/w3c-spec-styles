@@ -55,6 +55,7 @@ ol li { color: #9cc; }
 
 
 ul.toc { list-style: none; }
+ul.toc li:before { content: ''; }
 div.subtoc { background: transparent; border: 0em; }
 body .toc, body .subtoc { background: transparent; border: 0em; }
 
