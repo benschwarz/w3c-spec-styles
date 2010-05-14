@@ -53,12 +53,14 @@ strong { text-shadow: 1px 1px 1px #fff; }
 
 ol li { color: #9cc; }
 
+
 ul.toc { list-style: none; }
-
 div.subtoc { background: transparent; border: 0em; }
+body .toc, body .subtoc { background: transparent; border: 0em; }
 
-div.section h2, div.section h3, div.section h4, div.section h5 { position: relative; }
-div.section span.tocnum { background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 0.7em; left: -6em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
+h2, h3, h4, h5, h6 { position: relative; }
+div.section span.tocnum, .secno  { background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 0.7em; left: -6em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
+a .secno { background-color: transparent; color: #9cc; border-radius: 0px; -webkit-border-radius: 0px; position: static; font-weight: normal; font-size: 1em; padding: 0px; font-family: inherit; text-align: left; letter-spacing: 0em; }
 div.section h3 span.tocnum { top: 0.2em; }
 
 div.section { margin: 2em 0em 0em; }
