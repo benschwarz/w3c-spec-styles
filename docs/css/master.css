@@ -6,8 +6,8 @@
 
 h1, h2, h3, h4, h5, h6, p, a, ul, ol, dt, dd, table, caption, th, td { font-weight: normal !important; margin: 0; padding: 0; color: inherit; font-family: Georgia, Times, "Times New Roman", sans-serif; }
 
-:link, :visited { color: #366; text-decoration: none; }
-:visited { color: #099; }
+a:link, a:visited { color: #366; text-decoration: none; }
+a:visited { color: #099; }
 
 body { margin: 2em auto; width: 33em; font-size: 1.05em; line-height: 1.45; background-image: none; background-color: #fff; }
 
@@ -52,6 +52,8 @@ hr { border: 0px; height: 2px; background: #acc; margin: 2em 0em; }
 strong { text-shadow: 1px 1px 1px #fff; }
 
 ol li { color: #9cc; }
+
+ul.toc { list-style: none; }
 
 div.subtoc { background: transparent; border: 0em; }
 
