@@ -19,7 +19,7 @@ var W3C = function(){
       rel:  "stylesheet"
     },
     script: {
-      src: "http://github.com/benschwarz/w3c-spec-styles/raw/master/docs/js/enhancements.js"
+      src: "http://github.com/paulirish/w3c-spec-styles/raw/master/docs/js/enhancements.js"
     }
   }
   
@@ -31,3 +31,5 @@ var W3C = function(){
 		}
 	}
 }();
+
+
