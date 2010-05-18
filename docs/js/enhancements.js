@@ -18,3 +18,44 @@ tidyTables = function () {
 		}
 	}
 }();
+
+// when prettify is loaded, run it!
+(function loopsiloop(){
+  if (window.prettyPrint){ 
+   prettyPrint();
+  } else {
+    setTimeout(loopsiloop,100);
+  }
+})();
+
+
+// set up code blocks to get hit by prettyprint:
+Array.prototype.slice.call(document.querySelectorAll('pre')).forEach(function(v,k,arra){
+  v.className += ' prettyprint';
+});
+
+
+var elements = {
+  link: {
+    href: "http://github.com/paulirish/w3c-spec-styles/raw/master/docs/css/prettify.css",
+    rel:  "stylesheet"
+  },
+  script: {
+    src: "http://github.com/paulirish/w3c-spec-styles/raw/master/docs/js/prettify.js"
+  }
+}
+
+for(var tag in elements) {
+	var element = document.createElement(tag);
+	for(var attribute in elements[tag]) {
+		element.setAttribute(attribute, elements[tag][attribute]);
+		document.body.appendChild(element);
+	}
+}
+
+
+
+
+
+
+
