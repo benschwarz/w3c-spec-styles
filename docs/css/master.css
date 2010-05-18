@@ -71,6 +71,9 @@ strong.rfc2119 { font-size: 0.8em; letter-spacing: 0.1; text-transform: uppercas
 
 a.internalDFN { color: #366; border: 0px; }
 
+div.example, div.illegal-example, div.html, div.illegal-html, div.xml, div.illegal-xml, pre.example, pre.illegal-example, pre.html, pre.illegal-html, pre.xml, pre.illegal-xml { background: transparent; border: 1px solid #9cc; }
+div.example:before { color: #fff; background: #7bb; padding: 0.5em; width: auto; background: #7BB; border: 0px; top: -1em; }
+
 /* Mobile (iPhone) */
 @media all and (max-device-width: 480px) {
   body { margin: 0 3em; font-size: 200%; }
