@@ -95,7 +95,7 @@ a.internalDFN { color: #366; border: 0px; }
 .atn { color: #606; }
 .atv { color: #080; }
 .dec { color: #606; }
-pre.prettyprint { padding: 2px; border: 1px solid #888; }
+pre.prettyprint { padding: 0.25em; }
 
 @media print {
   .str { color: #060; }
