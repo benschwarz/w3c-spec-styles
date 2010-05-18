@@ -14,7 +14,7 @@ body { margin: 2em auto; width: 33em; font-size: 1.05em; line-height: 1.45; back
 p, dt, td { color: #000; }
 
 div.head { position: relative; }
-div.head:before { content: 'W3C'; background-color: #7bb; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 2em; left: -5em; font-weight: bold; font-size: 11px; padding: 3px 6px 2px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
+div.head:before { content: 'W3C'; background-color: #7bb; color: #fff; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 2em; left: -5em; font-weight: bold; font-size: 11px; padding: 3px 6px 2px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
 div.head hr, div.head > a, img[src*="http://www.w3.org/Icons/"], div.head dl { display: none; } /* Hide hr, the logo, logo alternate and the dl list in the head section */
 div.head h1 { font-family: "ChunkFiveRegular", impact; line-height: 1.4em; font-size: 2.9em; width: 530px; margin-bottom: 0.5em; text-shadow: 1px 1px 1px white; }
 div.head h2 { margin: 0 0 0.5em 0; }
@@ -59,8 +59,8 @@ div.subtoc { background: transparent; border: 0em; }
 body .toc, body .subtoc { background: transparent; border: 0em; }
 
 h2, h3, h4, h5, h6 { position: relative; }
-div.section span.tocnum, .secno  { background-color: #7bb; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 0.7em; left: -6em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
-a .secno { background-color: transparent; color: #7bb; border-radius: 0px; -webkit-border-radius: 0px; position: static; font-weight: normal; font-size: 1em; padding: 0px; font-family: inherit; text-align: left; letter-spacing: 0em; }
+div.section span.tocnum, .secno  { background-color: #7bb; color: #fff; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  position: absolute; top: 0.7em; left: -6em; font-weight: bold; font-size: 11px; padding: 3px 6px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
+a .secno { background-color: transparent; color: #7bb; border-radius: 0px; -moz-border-radius: 3px; -webkit-border-radius: 0px; position: static; font-weight: normal; font-size: 1em; padding: 0px; font-family: inherit; text-align: left; letter-spacing: 0em; }
 div.section h3 span.tocnum { top: 0.2em; }
 
 div.section { margin: 2em 0em 0em; }
@@ -71,8 +71,8 @@ strong.rfc2119 { font-size: 0.8em; letter-spacing: 0.1; text-transform: uppercas
 
 a.internalDFN { color: #366; border: 0px; }
 
-div.example, div.illegal-example, div.html, div.illegal-html, div.xml, div.illegal-xml, pre.example, pre.illegal-example, pre.html, pre.illegal-html, pre.xml, pre.illegal-xml { background: transparent; border: 1px solid #9cc; }
-div.example:before { color: #fff; background: #7bb; padding: 0.5em; width: auto; background: #7BB; border: 0px; top: -1em; }
+div.example, div.illegal-example, div.html, div.illegal-html, div.xml, div.illegal-xml, pre.example, pre.illegal-example, pre.html, pre.illegal-html, pre.xml, pre.illegal-xml { background: transparent; border: 1px dashed #9cc; }
+div.example:before { color: #fff; background: #7bb; padding: 0.5em; width: auto; background: #7BB; border: 0px; top: -1em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 
 /* Mobile (iPhone) */
 @media all and (max-device-width: 480px) {
