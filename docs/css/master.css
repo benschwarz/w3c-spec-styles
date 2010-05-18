@@ -16,7 +16,7 @@ p, dt, td { color: #000; }
 div.head { position: relative; }
 div.head:before { content: 'W3C'; background-color: #9cc; color: #fff; border-radius: 3px; -webkit-border-radius: 3px; position: absolute; top: 2em; left: -5em; font-weight: bold; font-size: 11px; padding: 3px 6px 2px; font-family: helvetica, sans-serif; text-align: right; letter-spacing: 0.1em; }
 div.head hr, div.head > a, img[src*="http://www.w3.org/Icons/"], div.head dl { display: none; } /* Hide hr, the logo, logo alternate and the dl list in the head section */
-div.head h1 { font-family: "ChunkFiveRegular"; line-height: 1.4em; font-size: 2.9em; width: 530px; margin-bottom: 0.5em; text-shadow: 1px 1px 1px white; }
+div.head h1 { font-family: "ChunkFiveRegular", impact; line-height: 1.4em; font-size: 2.9em; width: 530px; margin-bottom: 0.5em; text-shadow: 1px 1px 1px white; }
 div.head h2 { margin: 0 0 0.5em 0; }
 div.head h2.maturity { color: #666; font-size: 1em; border: 0px; }
 div.head p.copyright { color: #999; font-size: 0.8em; font-style: italic; width: 80%; line-height: 1.4em; }
